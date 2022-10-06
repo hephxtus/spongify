@@ -19,10 +19,6 @@ foreach ($x in $new_string) {
         $isup = !$isup
     }
     
-    Write-Output ($new_string[$i], $isup)
-
-
-    
 }
 $new_string = -join $new_string
 Write-Output $new_string
